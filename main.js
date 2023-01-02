@@ -4,6 +4,7 @@ window.onload = () => {
     changeGradeColors();
     toggleNavBar();
     copyright();
+    reqParam();
    
     const tab_switchers = document.querySelectorAll('[data-switcher]');
     back(tab_switchers);
@@ -161,5 +162,21 @@ function copyright(){
     `;
     
     document.getElementById("copyright").innerHTML = paragraph;
+}
+
+function reqParam(){
+    document.querySelectorAll('.secondary_article_wrap_input input').forEach(
+        element =>{
+            element.addEventListener('input',()=>
+                element.parentElement.removeAttribute('data-error'))
+        }
+    );
+
+    document.querySelectorAll('.secondary_article_wrap_input select').forEach(
+        element =>{
+            element.addEventListener('change',()=>
+                element.parentElement.parentElement.removeAttribute('data-error'),false)
+         });
+
 }
  
