@@ -39,14 +39,14 @@ const projecto = ({data}) => {
           <div className='flex gap-4'>
             <button className='flex hover:scale-105 ease-in duration-200'>
             <a className='py-2 px-4 text-center text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-500'
-              target='_blank' href={`${data[0]?.link}`}>
+              target='_blank' rel="noreferrer"  href={`${data[0]?.link}`}>
               Projecto
             </a>
             </button>
 
             {data[0]?.title=="Trois Metalliques"?<div></div>:<button className='flex hover:scale-105 ease-in duration-200'>
             <a className='py-2 px-4 text-center text-white rounded-md bg-gradient-to-r from-gray-500 to-gray-800'
-              target='_blank' href={`${data[0]?.github}`}>
+              target='_blank' rel="noreferrer"  href={`${data[0]?.github}`}>
               Código
             </a>
             </button>}

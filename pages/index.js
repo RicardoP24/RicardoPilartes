@@ -79,18 +79,18 @@ export default function Home({services,projectos}) {
         <div className={darkMode==false?`flex py-2 pb-8  text-5xl text-gray-600 justify-center gap-8 md:gap-16`:
       `flex py-2 pb-8  text-5xl text-gray-600 justify-center gap-8 md:gap-16`
       }>
-            <a href='https://github.com/RicardoP24' target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
+            <a href='https://github.com/RicardoP24' rel="noreferrer"  target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
           `hover:text-white cursor-pointer`
           }> <AiFillGithub  /></a>
 
-            <a href='https://www.linkedin.com/in/ricardo-pilartes-da-silva-54243b221/' target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
+            <a href='https://www.linkedin.com/in/ricardo-pilartes-da-silva-54243b221/' rel="noreferrer"  target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
           `hover:text-white cursor-pointer`}>  <AiFillLinkedin/></a>
 
 
-            <a href='https://www.facebook.com/profile.php?id=100015332328463' target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
+            <a href='https://www.facebook.com/profile.php?id=100015332328463' rel="noreferrer" target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
           `hover:text-white cursor-pointer`}> <AiFillFacebook /></a>
 
-            <a href='https://www.instagram.com/rp_designcriativo/' target='_blank' className={darkMode==false?`hover:text-black cursor-pointer`:
+            <a href='https://www.instagram.com/rp_designcriativo/' target='_blank' rel="noreferrer"  className={darkMode==false?`hover:text-black cursor-pointer`:
           `hover:text-white cursor-pointer`}> <AiFillInstagram/></a>
 
         </div>
