@@ -14,7 +14,7 @@
             "path":"troismetalliques",
             
             "link":"https://troismetalliques.com/",
-            "img":"/../public/troismetalliques.png",
+            "img":"https://firebasestorage.googleapis.com/v0/b/portfolio-da39d.appspot.com/o/troismetalliques.png?alt=media&token=4b4f961b-63c7-4ec9-8f8c-02cdf3ab795f",
             "Description":"Este é um projecto de uma simples página web que serve como portfólio da empresa Trois metalliques feito com a plataforma wordpress e o plugin Elementor"
          
         }, 
@@ -29,8 +29,9 @@
                 "Css",
                 "Javascript"
             ],
+            "link":"https://ricardop24.github.io/",
             "github":"https://github.com/RicardoP24/Sistema-de-gestao-universitaria",
-            "img":"/../public/universidade.png",
+            "img":"https://firebasestorage.googleapis.com/v0/b/portfolio-da39d.appspot.com/o/universidade.png?alt=media&token=ad32e821-81d1-4f99-85d6-2b80408eaf0c",
             "Description":"Um Belo Sistema Universitário Usando somente Html, css, Javascript sem o auxílio de Frameworks"
          
         },
@@ -46,8 +47,9 @@
                 "JSON"
             ],
             "path":"nextApp",
+            "link":"https://next-js-app-roan.vercel.app/",
             "github":"https://github.com/RicardoP24/nextJsApp",
-            "img":"/../public/nextjsapp.png",
+            "img":"https://firebasestorage.googleapis.com/v0/b/portfolio-da39d.appspot.com/o/nextjsapp.png?alt=media&token=e9c89c45-4111-41f4-924f-9934b21cbc39",
             "Description":"Um sistema de gestão de eventos em diversas cidades explorando as vantagens do next JS e com uma base de dados em um ficheiro JSON"
          
         },
@@ -64,7 +66,7 @@
                 "Programação Orientada a Objectos"
                 
             ],
-            "img":"/../public/tictactoe.png",
+            "img":"https://firebasestorage.googleapis.com/v0/b/portfolio-da39d.appspot.com/o/tictactoe.png?alt=media&token=90fc4c4b-24f9-452e-941a-ffc3773ec08b",
 
             "Description":"Este é um projecto focado em programação orientada a objectos e java Swing que consiste no jogo de tictactoe onde é permitido redimensionar o tabuleiro do jogo para um tabuleiro maior ou menor"
          
