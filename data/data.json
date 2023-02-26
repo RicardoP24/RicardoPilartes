@@ -1,0 +1,111 @@
+{
+    "projectos":[ 
+       
+        {
+            "projectId":1,
+            "title":"Trois Metalliques",
+            "mainTech":"WordPress",
+            "tools": [
+                "WordPress",
+                "Elementor Pro",
+                "Sql"
+                
+            ],
+            "path":"troismetalliques",
+            
+            "link":"https://troismetalliques.com/",
+            "img":"/../public/troismetalliques.png",
+            "Description":"Este é um projecto de uma simples página web que serve como portfólio da empresa Trois metalliques feito com a plataforma wordpress e o plugin Elementor"
+         
+        }, 
+
+        {
+            "projectId":2,
+            "title":"Sistema de Gestão Universitária UI",
+            "mainTech":"Javascript",
+            "path":"universidade",
+            "tools":[
+                "Html",
+                "Css",
+                "Javascript"
+            ],
+            "github":"https://github.com/RicardoP24/Sistema-de-gestao-universitaria",
+            "img":"/../public/universidade.png",
+            "Description":"Um Belo Sistema Universitário Usando somente Html, css, Javascript sem o auxílio de Frameworks"
+         
+        },
+         
+        {
+            "projectId":3,
+            "title":"Lista de Eventos",
+            "mainTech":"NextJS",
+            "tools":[
+                "Next JS",
+                "Tailwind Css",
+                "API",
+                "JSON"
+            ],
+            "path":"nextApp",
+            "github":"https://github.com/RicardoP24/nextJsApp",
+            "img":"/../public/nextjsapp.png",
+            "Description":"Um sistema de gestão de eventos em diversas cidades explorando as vantagens do next JS e com uma base de dados em um ficheiro JSON"
+         
+        },
+
+        {
+            "projectId":4,
+            "path":"tictactoe",
+            "mainTech":"Java",
+            "github":"https://github.com/RicardoP24/TicTacToe",
+            "link":"https://firebasestorage.googleapis.com/v0/b/portfolio-da39d.appspot.com/o/tic%20tac%20toe.mp4?alt=media&token=2d5057a6-5c17-425f-953d-491c8cf731cb",
+            "title":"Java - Tic Tac Toe",
+            "tools": [
+                "Java Swing",
+                "Programação Orientada a Objectos"
+                
+            ],
+            "img":"/../public/tictactoe.png",
+
+            "Description":"Este é um projecto focado em programação orientada a objectos e java Swing que consiste no jogo de tictactoe onde é permitido redimensionar o tabuleiro do jogo para um tabuleiro maior ou menor"
+         
+        } 
+],
+    "Services":[
+        {
+            "title":"UI/UX Design",
+            "tools":[
+                "Html",
+                "Css",
+                "TailWind Css",
+                "Figma"
+            ],
+            "Description":"Faço protótipos de baixa e alta fidelidade de aplicativos Mobile, websites e sistemas Web. Sou capaz de construir uma incrível interface gráafica e passar uma experiência inesquecível ao seu usuário."   
+        },
+
+        {
+            "title":"Programação Front-End",
+            "tools":[
+                "React JS, Next JS, Flutter",
+                "WordPress",
+                "API's",
+                "Javascript / Typescript",
+                "Java"
+                
+            ],
+            "Description":"Elaboro Websites e aplicativos para pequenas empresas usando o framework wordpress e actuo em equipes de grandes projectos que usam como base a tecnologia react Js bem como possuo experiência em desenvolvimento de projectos em Java"   
+        },
+        
+        {
+            "title":"Back-End e Base de Dados",
+            "tools":[
+                "Express JS, Node JS",
+                "Javascript",
+                "API Routes",
+                "Mongo DB, MySql",
+                "Microsoft Access"
+                
+            ],
+            "Description":"Precisa de um back-end e uma base de dados complexa para o seu negócio? Tenho domínio de tecnologias do ecossistema Node Js, bases de dados Sql ( mysql e o access ) e Bases de dados NoSql(MongoDB) que permitem a realização desta tarefa com excelência"   
+        }
+    ]
+}
