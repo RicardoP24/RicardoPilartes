@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin,AiFillGithub,AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 import Myself from '../public/Myself.webp'
 import Contact from '@/components/contact'
 import Project from '@/components/Project'
 import { useState,useEffect } from 'react'
+import Image from 'next/image'
 
 
 export default function Home({services,projectos}) {

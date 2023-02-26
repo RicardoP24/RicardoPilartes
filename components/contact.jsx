@@ -75,6 +75,7 @@ const Contact = () => {
                     href='https://www.linkedin.com/in/ricardo-pilartes-da-silva-54243b221/'
                     target='_blank'
                     rel='noreferrer'
+                    
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn className='text-lg' />
