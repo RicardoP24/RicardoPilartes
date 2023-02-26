@@ -124,12 +124,12 @@ export default function Home({services,projectos}) {
           <div className="lg:flex gap-10">
             {
               services.map((val)=>
-                <div className={darkMode==false?
+                <div key={val.title} className={darkMode==false?
                   `text-center hover:text-white hover:bg-teal-500 hover:scale-105 ease-in duration-200  shadow-lg p-10 rounded-xl my-10  flex-1`
                 :`text-center hover:text-white hover:bg-teal-500 hover:scale-105 ease-in duration-200 shadow-white shadow-lg p-10 rounded-xl my-10  flex-1`}>
                 {/*<Image src={design} width={100} height={100} />*/}
                 <h3 className="text-lg font-bold pt-8 pb-2  ">
-                  {val.title}
+                  {val.title} 
                 </h3>
                 <p className="py-2">
                  {val.Description}
@@ -137,7 +137,7 @@ export default function Home({services,projectos}) {
                 <h4 className="py-4 font-bold">Ferramentas</h4>
                 {
                   val.tools.map(tool=>
-                    <p className=" py-1">{tool}</p>
+                    <p key={tool} className=" py-1">{tool}</p>
                   )
                 }
  

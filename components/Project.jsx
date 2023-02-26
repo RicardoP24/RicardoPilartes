@@ -15,6 +15,7 @@ function Projects({data}) {
 
         {data.map(ev=>
           <ProjectItem
+            key={ev.title}
             title={ev.title}
             backgroundImg={ev.img}
             projectUrl={ev.path}

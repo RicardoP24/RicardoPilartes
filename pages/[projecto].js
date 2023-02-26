@@ -30,7 +30,8 @@ const projecto = ({data}) => {
             <div className='pb-4'></div>
             <h2 className='font-semibold'>Overview</h2>
             <div className='pb-4'></div>
-          <p>
+            <p>
+              
         {data[0]?.Description}
           </p>
           <div className='pb-4'></div>
@@ -62,7 +63,7 @@ const projecto = ({data}) => {
             <div className='grid grid-cols-3 md:grid-cols-1'>
               {data[0]?.tools.map(
                 e=>
-                <p className='text-gray-600 py-2 flex items-center'>
+                <p key={`${e}`} className='text-gray-600 py-2 flex items-center'>
                   <RiRadioButtonFill className='pr-1' /> {`${e}`}
                 </p>
                 
